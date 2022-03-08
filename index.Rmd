@@ -15,6 +15,30 @@ library(flexdashboard)
 
 Column {data-width=150}
 -----------------------------------------------------------------------
+### Central point in scatterplot: Yann Tiersen - Comptine d`un autre ete-l'apres-midi {data-commentary-width=400}
+
+![Cepstrogram 1](amelie2.png)
+![Cepstrogram 2](Amelie max tatums manhattan.png)
+
+***
+
+As interesting it is to analyze outliers, it is also relevant to analyze a central point in the corpus, a soundtrack which can be classified as averege. I decide to choose a point on the intrumentalness/energy scatterplot, with instrumentalness around 0.90 and energy around 0.2. A song which fit this well is Yann Tiersen - Comptine d`un autre ete-l'apres-midi, the famous piano soundtrack of the French movie Amelie. For this I created two cepstrograms (1. rms, bars, manhattan, 2 max, tatums, manhattan). At the first cepstrogram you can clearly see that there is a steady basis in the song which flow during the entire song, with a very high magnitude at the start and maintaining this magnitude throughout the entire song, only losing some strength at the end. Furthermore, it shows some activity throughout the song in the higher ranges indicated by the lught blue colours. At the second cepstrogram the same pattern can be seen, although the colours are flipped. This can be regarded as a typical soundtrack, as it has a common flow with small changes, but still a lot of variety throughout the track, not following a standard structure like pop songs.
+
+
+### Self Similarity Matrices: Hans Zimmer I'm not a hero
+
+
+![Self Similarity Matrices: Timbre & Chroma](timbrechroma.png)
+
+
+
+***
+Here you can see two self similarity matrices for the soundtrack I'm not a hero created by Hans Zimmer. I chose this one for this analysis, because it is a very famous soundtrack, and personally one of my favourites. I was curious to find out if the originality in the music is somehow reflected in these matrices.
+
+In the first one, regarding timbre, it can be seen that the beginning is much like the rest of the song and that later on, there are new elements introduced. and moments of uniqueness and similarity are alternated. This makes sense, it starts with a slow buildup with many elements that are there throughout the song and which are later accompanied with more instruments to make it more cinematic and powerful. Throughout the song, slower moments are alternated by more powerful moments. The bright yellow line indicates a loud crash accompanied by brass sounds rising in intensity. This is a unique moment in the song.
+
+In the second matrix regarding chroma (pitches), a different pattern can be seen. It is indicated that around the first half of the song, many unique pitches are heard and through the second half, mostly pitches that are common in the song are heard. This can be explained by the fact that the beginning of the track consists of several high pitched percussion instruments which are not heard much more in the song. The majority of this song consists of either very quiet or bombastic moments and these moments occur mostly during the second half of the song. 
+
 
 ### The First Exploration into Soundtracks {data-commentary-width=400}
 
