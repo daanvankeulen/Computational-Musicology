@@ -15,6 +15,24 @@ library(flexdashboard)
 
 Column {data-width=150}
 -----------------------------------------------------------------------
+
+### The Keys in the music from Hans Zimmer and John Williams
+
+![Keys](Key Histogram.png)
+
+*** 
+
+In this histogram you can see the keys that are used in the soundtracks by Hans Zimmer and John Williams. It is clear that the most used keys by Hans Zimmer are D and G and by John Williams C is most often used. What you can also see from this histogram is that Hans Zimmer uses a wide variety of keys in his soundtracks, having at least used every key once. John Williams didn't use every key and his use of keys is more concentrated. 
+
+
+### Two Chordograms "Hans Zimmer - I'm not a Hero" & "John Williams - Duel of the Fates"
+
+![Chordogram I'm not a Hero](batmanchordogram.png)
+![Chordogram Duel of the Fates](duelofthefateschordogram.png)
+
+***
+Here I dive deeper on two famous works from Hans Zimmer and John Williams, to see if some differences can be found using a chordogram for both tracks. Firstly, an analysis the track I'm not a Hero, the soundtrack for the movie Batman: The Dark Knight. What is clear already from a first glance, is that Hans Zimmer uses a concentration of a couple of the same chords throughout the entire track, but that there is still a variety of other chords on top of that to keep the track dynamic and unique. From the chordogram of Duel of the Fates (the soundtrack for Star Wars: The Phantom Menace), it can be seen that John Williams uses a much wider array of chords throughout the entire track. When you listen to this track it also makes sense, it is a more bombastic track, consisting of a  powerful choir and a large amount of instruments. As two tracks are not enough to draw large conclusions from this comparison, it can still be said that in this case Hans Zimmer uses a more subtle and minimalistic approach regarding chords and that John Williams uses a larger melodic and harmonic soundscape at once. Hereafter, you can see a larger analysis of multiple tracks to build further on this comparison to see if this is the case for more tracks, using other ways of analysis as well. 
+
 ### Central point in scatterplot: Yann Tiersen - Comptine d`un autre ete-l'apres-midi {data-commentary-width=400}
 
 ![Cepstrogram 1](amelie2.png)
