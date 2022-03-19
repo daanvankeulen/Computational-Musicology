@@ -13,8 +13,36 @@ output:
 library(flexdashboard)
 ```
 
-Column {data-width=150}
------------------------------------------------------------------------
+----------------------------------------------------------------------
+
+
+### Tempi Hans Zimmer & John Williams
+
+![Tempi Hans Zimmer & John Williams](Histogram Tempi Zimmer Williams.png) 
+
+***
+
+Here you can see a histogram in which the different tempi of the soundtracks by Hans Zimmer and John Williams are compared. It is clear that Hans Zimmer uses a larger variety of tempi compared to John Williams, and Hans Zimmer has more tracks with a larger tempo. This concentration in one aspect was also seen before in the analysis of keys, which showed that Hans Zimmer used a larger variety of keys and John Williams focused on a select group of keys to be used in his tracks.
+
+### Tempi Iconic Soundtracks
+
+![Tempi Iconic Soundtracks](Histogram Tempi Iconic Soundtracks.png) 
+![Tempogram Godfather](TempogramGodfather2.png) 
+![Tempogram Sherlock](TempogramSherlock2.png) 
+
+
+***
+Using the playlist Iconic Soundtracks, I created a histogram in which you can see the tempi of the soundtracks. Here you can see that in general, the tempo lies between 60 and 150 bpm with some outliers. I wanted to see if the outliers' tempo was actually correct or a mistake and that perhaps the BPM was doubled or halved and for this I listened the songs and tapped with a BPM counter. 
+
+***
+For the first 2 outliers on the lower end, I realized it was halved so in fact the speed was around 100 bpm. I think the mistake was made because the instrumentation was quiet. For the third one (Nino Rota - The Godfather Waltz), the bpm was correct, therefore I created a cyclic tempogram for it to find out any interesting features of this outlier. It is clear that this tempopgram doesn't show the real bpm, but a lot of activity is seen around 100 BPM, especially between 30 and and 70 seconds. If you assume that the BPM is doubled in the entire tempogram, it is correct. After this mark the song gets even more quiet with only a sad violin, it is clear that not much information is picked up here, the same as in the beginning of the song. But after around 110 seconds, a piano starts to sound with a faster pace, this makes clear why here there is a yellow vertical line, the algorithm doesn't know what the exact tempo is anymore. 
+
+***
+
+It was also interesting to analyze an outlier on the other end. The four fastest ones, with the fastest almost at 200 bpm were clearly doubled and one even tripled. The real outlier is Hans Zimmer - Discombobulate, the fast paced soundtrack for the movie Sherlock Holmes. When you listen to it, it is easy to follow the speed, since the drums and other instruments clearly map out the rhythm. This is shown clearly in the cyclic tempogram, which correctly outlines the speed of 142 bpm. 
+
+
+
 
 ### The Keys in the music from Hans Zimmer and John Williams
 
@@ -35,8 +63,9 @@ Here I dive deeper on two famous works from Hans Zimmer and John Williams, to se
 
 ### Central point in scatterplot: Yann Tiersen - Comptine d`un autre ete-l'apres-midi {data-commentary-width=400}
 
-![Cepstrogram 1](amelie2.png)
-![Cepstrogram 2](amelie sections.png)
+
+
+![Amelie Full](ameliefull.png)
 
 ***
 
