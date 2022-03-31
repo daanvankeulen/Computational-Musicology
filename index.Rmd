@@ -7,6 +7,7 @@ output:
     storyboard: true
     orientation: columns
     vertical_layout: fill
+    self_contained: false
 ---
 
 ```{r setup, include=FALSE}
@@ -16,13 +17,50 @@ library(flexdashboard)
 ----------------------------------------------------------------------
 
 
+### Introduction to the Exploration into Soundtracks {data-commentary-width=400}
+
+```{r}
+
+```
+
+For this project I have dug deep into the characteristics of soundtracks. Virtually any piece of music which is used or specifically written for a movie, tv series, documentary or game can be classified as a soundtrack. It is a typical subgenre which mostly has a niche fanbase and the music is generally of a longer length. And it is mostly served as an addition to media, but many people listen to this music standalone and visit concerts in which such soundtracks are performed. I chose it because I am personally a big fan of soundtracks and I am also creating soundtracks myself. I was eager to find out if there are any surprises to  be found among this specifc music genre, as well as in comparison between several composers and between pieces which have a different purpose. For this project I have used four different playlists:
+
+-''Iconic Soundtracks'', which is a playlist by Spotify with a collection of 65 characteristic soundtracks which are famous with a broader audence
+-''This is Hans Zimmer'', which contains 70 works from this famous soundtrack composer
+-''This is John Williams'', which contains 50 works from this famous soundtrack composer
+-The last playlist consists of the 20 longest tracks from the Iconic Soundtracks playlist, to be used to create a heatmap from. Technically it was not possible for my PC to handle the entire playlist for this purpose.
+
+This corpus was useful for many purposes; First it was useful to gather information from the Iconic Soundtracks playlist to draw conclusions about soundtracks in general. Secondly it was interesting to compare the two playlists by Hans Zimmer and John Williams to get interesting comparisons between their works, and to find similarities and differences. 
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Clustering Key Features
+
+![Heatmap](Heatmap.png)
+
+*** 
+
+To get a broader overview of the similarities between several tracks, I created a heatmap with seven characteristics I thought would show the most interesting differences between tracks and groups of tracks: liveness, tempo, instrumentalness, loudness, energy, valence and acousticness. I used the 20 longest tracks from the playlist ''Iconic Soundtracks'', because the full playlist was too much to handle for my pc. And longer tracks have more variation in them, so it makes the analysis even more interesting.
+
+What strikes already from the first glance that there are two outliers on two different characteristics: ''With my own eyes'' scores very high on liveness and ''Flight to Neverland'' very high on valence. However this is all relative, the liveness score is just 0,21, and this track has no audible audience, so in this sence the yellow colour can be a bit misleading. The same goes for the high valence, which is 0.35 and could be much higher. But in this corpus, they are the outlier on these factors.
+
+Another interesting analysis can be made by how the characteristics are grouped. Tempo and instrumentalness are grouped together, which implies that on general, tracks with low intrumentalness have also a lower tempo and vice versa. But not all classifications regarding instrumentalness are as accurate, since many soundtracks consist of some choir and sometimes the API picks it up, but sometimes it doesn't. So it doesn't say much in general. Loudness and energy are correlated in the same way according to this heatmap and it makes sense: louder soundtracks usually convey more energy, since they consist of more bombastic elements and energetic choirs. Especially when you listen to the track ''Raider's March'' which has an energy score of 0.35. 
+
+As you can see, there are many clusterings for the tracks and they make sense. For example, the second and third row from below show the connection between ''Pure Spirits of the Forest'' and ''Blade Runner Blues'. You can see they are very similar on all of the characteristics. But when you listen to these tracks, they still show some differences. Pure Spirits of the Forests isa piece which builds up very slowly with calm and peaceful elements and has an energetic part at the end. Blade Runner Blues has the same calmness but has a way fuller sound throughout the entire track. But here the same problem as before can be seenm the colours are not always accurate: the loudness is correct, and tempo show the same colour which makes sense, since they have a similar tempo. Liveness is not correct since they both have no sound of an audience in the recording.
+
+
 ### Tempi Hans Zimmer & John Williams
 
 ![Tempi Hans Zimmer & John Williams](Histogram Tempi Zimmer Williams.png) 
 
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DX1tz6EDao8it?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
 ***
 
 Here you can see a histogram in which the different tempi of the soundtracks by Hans Zimmer and John Williams are compared. It is clear that Hans Zimmer uses a larger variety of tempi compared to John Williams, and Hans Zimmer has more tracks with a larger tempo. This concentration in one aspect was also seen before in the analysis of keys, which showed that Hans Zimmer used a larger variety of keys and John Williams focused on a select group of keys to be used in his tracks.
+
+***
 
 ### Tempi Iconic Soundtracks
 
@@ -87,16 +125,7 @@ In the first one, regarding timbre, it can be seen that the beginning is much li
 In the second matrix regarding chroma (pitches), a different pattern can be seen. It is indicated that around the first half of the song, many unique pitches are heard and through the second half, mostly pitches that are common in the song are heard. This can be explained by the fact that the beginning of the track consists of several high pitched percussion instruments which are not heard much more in the song. The majority of this song consists of either very quiet or bombastic moments and these moments occur mostly during the second half of the song. 
 
 
-### The First Exploration into Soundtracks {data-commentary-width=400}
 
-```{r}
-
-```
-
-For this project I have dug deep into the characteristics of soundtracks. Virtually any piece of music which is used or specifically written for a movie, tv series, documentary or game can be classified as a soundtrack. It is a typical subgenre which mostly has a niche fanbase and the music is generally of a longer length. And it is mostly served as an addition to media, but many people listen to this music standalone and visit concerts in which such soundtracks are performed. I chose it because I am personally a big fan of soundtracks and I am also creating soundtracks myself. I was eager to find out if there are any surprises to  be found among this specifc music genre, as well as in comparison between several composers and between pieces which have a different purpose.
-
-Column {data-width=350}
------------------------------------------------------------------------
 
 
 ```{r}
