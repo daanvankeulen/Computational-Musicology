@@ -54,7 +54,6 @@ As you can see, there are many clusterings for the tracks and they make sense. F
 
 ![Tempi Hans Zimmer & John Williams](Histogram Tempi Zimmer Williams.png) 
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DX1tz6EDao8it?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
 ***
 
