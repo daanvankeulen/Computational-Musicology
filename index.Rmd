@@ -7,7 +7,6 @@ output:
     storyboard: true
     orientation: columns
     vertical_layout: fill
-    self_contained: false
 ---
 
 ```{r setup, include=FALSE}
