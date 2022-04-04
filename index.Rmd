@@ -184,9 +184,9 @@ Here I dive deeper on two famous works from Hans Zimmer and John Williams, to se
 
 ### Concluding the Project 
 
-**Conclusion on Iconic Soundtracks**
+**Conclusion on Movie Soundtracks**
 
-I already had a solid knowledge about iconic soundtracks, but researching this playlist gave me even more. It confirmed my knowledge that soundtrack structures are so different than other types of music. It doesn't have a clear cut structure and usually shows a variety of loudness and dynamics. But this can in fact be seen as a characteristic element of a soundtrack. This variety was clearly reflected in the cepstrogram of the central point in the corpus, as well as in the self similarity matrices. Even in the analyzed outlier I found that the variety was evident, which made it not so much of an outlier on the aspect that it differed so much from the other soundtracks.
+I already had a solid knowledge about movie soundtracks, but researching this playlist gave me even more. It confirmed my knowledge that movie soundtrack structures are so different than other types of music. It doesn't have a clear cut structure and usually shows a variety of loudness and dynamics. But this can in fact be seen as a characteristic element of a movie soundtrack. This variety was clearly reflected in the cepstrogram of the central point in the corpus, as well as in the self similarity matrices. Even in the analyzed outlier I found that the variety was evident, which made it not so much of an outlier on the aspect that it differed so much from the other movie soundtracks.
 
 **Conclusion on Hans Zimmer & John Williams**
 
